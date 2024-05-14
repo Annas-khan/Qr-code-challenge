@@ -4,6 +4,12 @@
     background-color: hsl(212, 45%, 89%);
 }
 
+body {
+    font-size: 15px; 
+    font-weight: 400,700;
+    font-family: "Outfit" , sans-serif;
+    font-weight: 400, 700;
+}
 
 .main {
     display: flex;
@@ -36,16 +42,15 @@ img {
     border-radius: 1.5rem;
 }
 
-#innertext {
-    background-color: white;
-    text-align: center;
-    text-wrap: wrapx;
-}
 
 h2 {
     background-color: white;
+    text-align: center;
+    padding-bottom: 1rem;
 }
 
 p {
     background-color: white;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
 }
